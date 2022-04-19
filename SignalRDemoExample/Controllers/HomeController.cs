@@ -28,6 +28,11 @@ namespace SignalRDemoExample.Controllers
             return View();
         }
 
+        public IActionResult SpecificSignalR()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
