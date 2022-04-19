@@ -1,0 +1,29 @@
+﻿@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    Choose your favorite movie
+    <br />
+    <label><input type="radio" id="moanaRadio" name="movie" /> Moana</label>
+    <br />
+    <label><input type="radio" id="lionRadio" name="movie" /> The Lion King</label>
+    <br />
+    <label><input type="radio" id="frozenRadio" name="movie" /> Frozen II</label>
+
+    <br />
+    <br />
+
+    <div>Moana Sore: <h4 id="moanaScore">0</h4></div>
+    <div>The Lion King Sore: <h4 id="lionScore">0</h4></div>
+    <div>Frozen II Sore: <h4 id="frozenScore">0</h4></div>
+
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/vote.js"></script>
+</body>
+</html>
